@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Stats",
+        "command": "stats:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Stats",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "stats:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
