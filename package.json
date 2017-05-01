@@ -1,9 +1,14 @@
 {
   "name": "stats",
   "main": "./lib/stats",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Show stats.js panel in atom",
-  "keywords": ["stats", "fps", "performance", "stats.js"],
+  "keywords": [
+    "stats",
+    "fps",
+    "performance",
+    "stats.js"
+  ],
   "activationCommands": {
     "atom-workspace": "stats:toggle"
   },
